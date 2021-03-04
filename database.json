@@ -6,7 +6,25 @@
     ],
     "locations": [
         {
-
+            "id": 1,
+            "name": "Kandy1",
+            "address": "8422 Johnson Pike",
+            "squareFootage": 1000,
+            "handicapAccessible": "true"
+        },
+        {
+            "id": 2,
+            "name": "Kandy2",
+            "address": "123 Kandy Road",
+            "squareFootage": 2000,
+            "handicapAccessible": "false"
+        },
+        {
+            "id": 3,
+            "name": "Kandy3",
+            "address": "539 Korner Lane",
+            "squareFootage": 3000,
+            "handicapAccessible": "true"
         }
     ],
     "employees": [
