@@ -1,7 +1,46 @@
 {
     "products": [
         {
-
+            "id": 1,
+            "productTypeId": 1,
+            "name": "Jolly Rancher",
+            "price": 1
+        },
+        {
+            "id": 2,
+            "productTypeId": 1,
+            "name": "Lollipop",
+            "price": 1
+        },
+        {
+            "id": 3,
+            "productTypeId": 2,
+            "name": "Extra",
+            "price": 2
+        },
+        {
+            "id": 4,
+            "productTypeId": 3,
+            "name": "Hersheys Bar",
+            "price": 2
+        },
+        {
+            "id": 5,
+            "productTypeId": 3,
+            "name": "Snickers",
+            "price": 3
+        },
+        {
+            "id": 6,
+            "productTypeId": 4,
+            "name": "Coke",
+            "price": 3
+        },
+        {
+            "id": 7,
+            "productTypeId": 4,
+            "name": "Sprite",
+            "price": 3
         }
     ],
     "locations": [
@@ -29,12 +68,29 @@
     ],
     "employees": [
         {
-
+            
         }
     ],
     "productTypes": [
         {
-
+            "id": 1,
+            "name": "Hard Candy",
+            "locationId": 1
+        },
+        {
+            "id": 2,
+            "name": "Gum",
+            "locationId": 2
+        },
+        {
+            "id": 3,
+            "name": "Chocolate",
+            "locationId": 3
+        },
+        {
+            "id": 4,
+            "name": "Soda",
+            "locationId": 1
         }
     ],
     "customers": [
