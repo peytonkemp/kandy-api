@@ -49,53 +49,79 @@
             "name": "Kandy1",
             "address": "8422 Johnson Pike",
             "squareFootage": 1000,
-            "handicapAccessible": "true"
+            "handicapAccessible": true
         },
         {
             "id": 2,
             "name": "Kandy2",
             "address": "123 Kandy Road",
             "squareFootage": 2000,
-            "handicapAccessible": "false"
+            "handicapAccessible": false
         },
         {
             "id": 3,
             "name": "Kandy3",
             "address": "539 Korner Lane",
             "squareFootage": 3000,
-            "handicapAccessible": "true"
+            "handicapAccessible": true
         }
     ],
     "employees": [
         {
-            
+            "locationId": 1,
+            "name": "name",
+            "manager": true,
+            "hourlyRate": 15,
+            "fullTime": true
+        },
+        {
+            "locationId": 2,
+            "name": "name2",
+            "manager": true,
+            "hourlyRate": 15,
+            "fullTime": false
+        },
+        {
+            "locationId": 3,
+            "name": "name3",
+            "manager": true,
+            "hourlyRate": 15,
+            "fullTime": true
         }
     ],
     "productTypes": [
         {
             "id": 1,
-            "name": "Hard Candy",
-            "locationId": 1
+            "name": "Hard Candy"
         },
         {
             "id": 2,
-            "name": "Gum",
-            "locationId": 2
+            "name": "Gum"
         },
         {
             "id": 3,
-            "name": "Chocolate",
-            "locationId": 3
+            "name": "Chocolate"
         },
         {
             "id": 4,
-            "name": "Soda",
-            "locationId": 1
+            "name": "Soda"
         }
     ],
     "customers": [
         {
-
+            "email": "@gmail.com",
+            "name": "name",
+            "id": 1
+        },
+        {
+            "email": "@gmail.com",
+            "name": "name2",
+            "id": 2
+        },
+        {
+            "email": "@gmail.com",
+            "name": "name3",
+            "id": 3
         }
     ]
 }
